@@ -4,6 +4,28 @@
   "type": "directory",
   "children": [
     {
+      "name": "_old_tests",
+      "type": "folder",
+      "children": [
+        {
+          "name": "test_all_modules.py",
+          "type": "file"
+        },
+        {
+          "name": "test_all_modules_interactive.py",
+          "type": "file"
+        },
+        {
+          "name": "test_gdf.py",
+          "type": "file"
+        },
+        {
+          "name": "test_gdf_2.py",
+          "type": "file"
+        }
+      ]
+    },
+    {
       "name": "main_folder",
       "type": "folder",
       "children": [
@@ -16,6 +38,10 @@
               "type": "file"
             },
             {
+              "name": "base_gasdynamic.py",
+              "type": "file"
+            },
+            {
               "name": "base_thermodynamic.py",
               "type": "file"
             }
@@ -23,7 +49,23 @@
         },
         {
           "name": "gasdynamic_functions",
-          "type": "folder"
+          "type": "folder",
+          "children": [
+            {
+              "name": "module_gasdynamic_functions",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.py",
+                  "type": "file"
+                },
+                {
+                  "name": "gasdynamic_functions.py",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
         },
         {
           "name": "thermodynamic_functions",
@@ -90,20 +132,16 @@
       ]
     },
     {
+      "name": ".gitignore",
+      "type": "file"
+    },
+    {
       "name": "requirements.txt",
-      "type": "file"
-    },
-    {
-      "name": "test_all_modules.py",
-      "type": "file"
-    },
-    {
-      "name": "test_all_modules_interactive.py",
       "type": "file"
     }
   ],
   "metadata": {
-    "generated": "2026-03-02T20:16:44.748Z",
+    "generated": "2026-03-03T18:59:34.272Z",
     "generator": "FileTree Pro Extension",
     "version": "0.2.0",
     "showIcons": false,
