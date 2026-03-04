@@ -1,6 +1,6 @@
 # File Tree: programm
 
-**Generated:** 03.03.2026, 22:09:08
+**Generated:** 05.03.2026, 00:00:46
 **Root Path:** `c:\Users\BONHRA\Desktop\programm`
 
 ```
@@ -8,7 +8,9 @@
 │   ├── test_all_modules.py
 │   ├── test_all_modules_interactive.py
 │   ├── test_gdf.py
-│   └── test_gdf_2.py
+│   ├── test_gdf_2.py
+│   ├── test_mech_port.py
+│   └── test_ports.py
 ├── main_folder
 │   ├── base_classes
 │   │   ├── __init__.py
@@ -18,6 +20,32 @@
 │   │   └── module_gasdynamic_functions
 │   │       ├── __init__.py
 │   │       └── gasdynamic_functions.py
+│   ├── structural_layer
+│   │   ├── nodes
+│   │   │   ├── boundary
+│   │   │   │   ├── inlet_device.py
+│   │   │   │   └── outlet_device.py
+│   │   │   ├── combustion
+│   │   │   │   ├── afterburner.py
+│   │   │   │   └── combustor.py
+│   │   │   ├── heat_exchange
+│   │   │   │   └── recuperator.py
+│   │   │   ├── propulsors
+│   │   │   │   └── propeller.py
+│   │   │   ├── routing
+│   │   │   │   ├── duct.py
+│   │   │   │   ├── flow_mixer.py
+│   │   │   │   └── flow_splitter.py
+│   │   │   ├── turbomachinery
+│   │   │   │   ├── compressor.py
+│   │   │   │   └── turbine,py
+│   │   │   ├── __init__.py
+│   │   │   └── base_node.py
+│   │   ├── ports
+│   │   │   ├── __init__.py
+│   │   │   ├── mechanical_port.py
+│   │   │   └── thermogasdynamic_port.py
+│   │   └── __init__.py
 │   └── thermodynamic_functions
 │       ├── module_thermodynamic_properties_of_air
 │       │   ├── __init__.py
@@ -32,8 +60,7 @@
 │           ├── table_air.csv
 │           └── table_clear_combustion_products.csv
 ├── .gitignore
-├── requirements.txt
-└── struct.json
+└── requirements.txt
 ```
 
 ---
